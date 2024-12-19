@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>漢字クイズ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>漢字クイズ</h1>
+    </header>
+    <main>
+        <div id="game">
+            <div id="question"></div>
+            <div id="choices"></div>
+        </div>
+        <div id="score">得点: 0</div>
+        <div id="timer">残り時間: 60秒</div>
+    </main>
+    <audio id="correct-sound" src="正解.wav"></audio>
+    <audio id="incorrect-sound" src="不正解.wav"></audio>
+</body>
+</html>
